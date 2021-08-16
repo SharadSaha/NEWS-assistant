@@ -1,0 +1,17 @@
+.App{
+    display:block;
+}
+
+.App-1{
+    position: relative;
+    align-items: top;
+}
+
+.App-2{
+    position: relative;
+}
+
+.App-3{
+    position: relative;
+    margin: auto;
+}

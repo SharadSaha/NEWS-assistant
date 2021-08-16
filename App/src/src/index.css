@@ -1,0 +1,49 @@
+#root{
+    height:100vh;
+}
+
+body{
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  
+  body {
+      /* background: linear-gradient(-45deg, #000000, #332821, #a74c01, #212c2a); */
+      background-image: url("images/bg2.jpg");
+      background-size: cover;
+      background-position: center;
+      transition: 0.7s ease all;
+      background-blend-mode:multiply;
+      /* animation: gradient 15s ease infinite; */
+  }
+
+  body:hover{
+    transition: 1.5s ease all;
+      background-blend-mode:multiply;
+      background-image: url("images/bg1.jpeg")
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
